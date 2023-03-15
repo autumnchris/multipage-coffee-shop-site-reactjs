@@ -1,9 +1,9 @@
 import React from 'react';
 
-const ContactHours = () => {
+const Visit = () => {
   return (
     <React.Fragment></React.Fragment>
   );
 }
 
-export default ContactHours;
+export default Visit;
