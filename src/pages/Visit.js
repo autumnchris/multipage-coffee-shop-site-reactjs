@@ -6,6 +6,16 @@ const Visit = () => {
   return (
     <React.Fragment>
       <HeroBanner heading="Visit Us" imageFile={visitHeroBanner} />
+      <section className="main-content visit">
+        <h3>Hours</h3>
+        <p><span className="icon far fa-clock fa-lg"></span> DAILY 7AM - 8PM</p>
+        <h3>Phone</h3>
+        <p><span className="icon fas fa-phone-alt fa-lg"></span> <a href="tel:5555555555">(555) 555-5555</a></p>
+        <h3>Email</h3>
+        <p><span className="icon fas fa-envelope fa-lg"></span> <a href="mailto:coffee.grounds@realemail.com">coffee.grounds@realemail.com</a></p>
+        <h3>Location</h3>
+        <p><span className="icon fas fa-map-marker-alt fa-lg"></span> 555 Espresso Lane Mochaville FL 55555</p>
+      </section>
     </React.Fragment>
   );
 }
