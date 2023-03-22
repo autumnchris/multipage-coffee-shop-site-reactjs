@@ -16,19 +16,19 @@ const Footer = () => {
         </div>
         <div className="other">
           <div className="contact-info">
-            <p className="hours"><span className="icon far fa-clock"></span> Hours: DAILY 7AM - 8PM</p>
-            <p className="address"><span className="icon fas fa-map-marker-alt"></span> 555 Espresso Lane Mochaville FL 55555</p>
-            <p className="phone"><span className="icon fas fa-phone-alt"></span> <a href="tel:5555555555">(555) 555-5555</a></p>
+            <p className="hours"><span className="icon far fa-clock fa-fw"></span> Hours: DAILY 7AM - 8PM</p>
+            <p className="address"><span className="icon fas fa-map-marker-alt fa-fw"></span> 555 Espresso Lane Mochaville FL 55555</p>
+            <p className="phone"><span className="icon fas fa-phone-alt fa-fw"></span> <a href="tel:5555555555">(555) 555-5555</a></p>
           </div>
           <div className="social-media-links">
             <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" title="Facebook">
-              <span className="fab fa-facebook"></span>
+              <span className="fab fa-facebook fa-fw"></span>
             </a>
             <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" title="Instagram">
-              <span className="fab fa-instagram"></span>
+              <span className="fab fa-instagram fa-fw"></span>
             </a>
             <a href="https://twitter.com" target="_blank" aria-label="Twitter" title="Twitter">
-              <span className="fab fa-twitter"></span>
+              <span className="fab fa-twitter fa-fw"></span>
             </a>
           </div>
         </div>

@@ -1,0 +1,86 @@
+footer {
+  background: $dark-gray;
+  bottom: 0;
+  color: change-color($black, $lightness: 100%);
+  left: 0;
+  padding: 0 20px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  a,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus {
+    color: $beige;
+  }
+  hr {
+    border-bottom: 1px solid $beige;
+  }
+  .coffee-shop-footer {
+    padding: 0 20px;
+    .site-links {
+      display: flex;
+      justify-content: center;
+      padding: 14px 0 26px;
+      a,
+      a:visited,
+      a:hover,
+      a:active,
+      a:focus {
+        color: change-color($black, $lightness: 100%);
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        &:not(:last-child) {
+          margin-right: 10px;
+        }
+        &:hover {
+          color: $light-gray;
+          text-decoration: none;
+        }
+      }
+    }
+    .other {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      @media all and (min-width: 620px) {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      p {
+        font-size: 0.9rem;
+        margin: 6px 0;
+      }
+      .social-media-links {
+        padding-bottom: 26px;
+        order: -1;
+        @media all and (min-width: 620px) {
+          padding-bottom: 0;
+          order: 0;
+        }
+        a,
+        a:visited,
+        a:hover,
+        a:active,
+        a:focus {
+          color: change-color($black, $lightness: 100%);
+          font-size: 1.5rem;
+          &:hover {
+            color: $beige;
+          }
+          &:not(:last-child) {
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+  .app-footer {
+    font-size: 0.8rem;
+    padding: 14px 0;
+    text-align: center;
+  }
+}
