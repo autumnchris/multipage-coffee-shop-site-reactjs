@@ -1,0 +1,94 @@
+main {
+  padding-top: 118px;
+  padding-bottom: 385px;
+  @media all and (min-width: 620px) {
+    padding-bottom: 330px;
+  }
+  .main-content {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 60px 20px 0;
+    hr {
+      border-bottom: 2.5px solid $dark-brown;
+      margin: 38px 12px;
+    }
+    .bold {
+      font-weight: 600;
+    }
+  }
+}
+
+// Styles for pages with a hero banner
+.hero-banner + .main-content {
+  h3 {
+    color: $dark-brown;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    @media all and (min-width: 620px) {
+      font-size: 2.2rem;
+    }
+  }
+  h4 {
+    color: $dark-brown;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    margin: 0;
+    @media all and (min-width: 620px) {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+// Menu page styles
+.main-content.menu {
+  h3 {
+    border-bottom: 6px double $golden-brown;
+    margin: 0 auto 30px;
+    padding: 0 15px;
+    width: fit-content;
+  }
+  h4 {
+    border-bottom: 2px solid $golden-brown;
+    margin: 38px 0 18px;
+    width: fit-content;
+  }
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+    @media all and (min-width: 500px) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 6px 0;
+    }
+    .item-name {
+      font-size: 1.15rem;
+      font-weight: 600;
+
+    }
+    .price {
+      font-size: 0.85rem;
+    }
+  }
+  .menu-info {
+    font-size: 0.9rem;
+  }
+}
+
+// Visit page styles
+.main-content.visit {
+  h3:not(:first-child) {
+    margin-top: 40px;
+  }
+  p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    @media all and (min-width: 620px) {
+      font-size: 1.3rem;
+    }
+  }
+}
