@@ -1,5 +1,9 @@
 # Multipage Coffee Shop Site (React.js)
 
+A front-end multi-page web app of a mock coffee shop using front-end routing. Built with React.js.
+
+Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page) as part of the curriculum for the [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) on [The Odin Project](https://www.theodinproject.com).
+
 ---
 
 ## Instructions
