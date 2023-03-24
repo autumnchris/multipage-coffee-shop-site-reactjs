@@ -6,6 +6,18 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 
 ---
 
+## Built With
+* [React.js](https://reactjs.org)
+* [React Router]()
+* [Sass](http://sass-lang.com)
+* [Webpack](https://webpack.js.org)
+* [Babel](https://babeljs.io)
+* [Normalize.css](https://necolas.github.io/normalize.css)
+* [Font Awesome](https://fontawesome.com)
+* [Google Fonts](https://fonts.google.com)
+* [Dark Idea font](https://befonts.com/dark-idea-font.html)
+* [TA Typefire font](https://befonts.com/ta-typefire-font-family.html)
+
 ## Instructions
 
 After forking and cloning, navigate to the repository in your command line and install the NPM packages:
