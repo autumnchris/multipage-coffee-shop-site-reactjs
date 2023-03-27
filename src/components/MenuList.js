@@ -1,5 +1,5 @@
 import React from 'react';
-import menu from '../data/menu.json';
+import menu from '../data/menu';
 
 const MenuList = ({ type }) => {
 
