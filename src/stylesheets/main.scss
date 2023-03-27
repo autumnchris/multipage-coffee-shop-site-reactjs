@@ -21,12 +21,15 @@ main {
 // Styles for pages with a hero banner
 .hero-banner + .main-content {
   h3 {
+    border-bottom: 6px double $golden-brown;
     color: $dark-brown;
     font-size: 1.8rem;
     letter-spacing: 3px;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0 15px;
     text-align: center;
     text-transform: uppercase;
+    width: fit-content;
     @media all and (min-width: 620px) {
       font-size: 2.2rem;
     }
@@ -42,13 +45,36 @@ main {
   }
 }
 
+// About page styles
+.main-content.about {
+  max-width: 800px;
+  .content-container {
+    padding: 20px;
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+  h3 {
+    border-bottom: 6px double $golden-brown;
+  }
+  figure {
+    padding: 20px;
+  }
+  img {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 1px 1px 8px 1px rgba(change-color($black, $lightness: 43%), 0.7);
+  }
+  p {
+    line-height: 1.35;
+  }
+}
+
 // Menu page styles
 .main-content.menu {
   h3 {
-    border-bottom: 6px double $golden-brown;
-    margin: 0 auto 30px;
-    padding: 0 15px;
-    width: fit-content;
+    margin-bottom: 30px;
   }
   h4 {
     border-bottom: 2px solid $golden-brown;
