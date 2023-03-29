@@ -94,19 +94,20 @@ hr {
 .button:hover,
 .button:active,
 .button:focus {
-  background: $dark-gray;
-  border: 0;
-  border-radius: 5px;
+  background: $dark-brown;
+  border: 2px solid $dark-brown;
+  border-radius: 28px;
   color: $beige;
   color: change-color($black, $lightness: 100%);
   cursor: pointer;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 12px 11px;
+  padding: 12px 16px;
   text-transform: uppercase;
   &:hover {
-    background: change-color($dark-gray, $lightness: 20%);
+    background: transparent;
+    color: $dark-brown;
     text-decoration: none;
   }
 }
