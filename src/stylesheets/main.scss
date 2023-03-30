@@ -45,6 +45,99 @@ main {
   }
 }
 
+// Homepage styles
+.main-content.home {
+  max-width: 100%;
+  padding: 70px 0 20px;
+  .content-container.welcome {
+    font-size: 1.7rem;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 40px 80px;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+  .content-container.image-gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    padding-bottom: 80px;
+    @media all and (min-width: 620px) {
+      grid-template-columns: repeat(3, 30%);
+    }
+    @media all and (min-width: 820px) {
+      grid-template-columns: repeat(4, 20%);
+    }
+  }
+  .content-container.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1000px;
+    @media all and (min-width: 820px) {
+      flex-direction: row;
+    }
+    .info-container {
+      display: flex;
+      flex-direction: column;
+      height: 350px;
+      justify-content: center;
+      margin: 0 20px;
+      padding: 0 20px;
+      text-align: center;
+      width: 90%;
+      @media all and (min-width: 820px) {
+        height: 400px;
+        width: 50%;
+      }
+      &:last-child {
+        margin-top: 20px;
+        @media all and (min-width: 820px) {
+          margin-top: 0;
+          margin-left: 0;
+        }
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+    .menu-info {
+      background: $dark-brown;
+      color: change-color($black, $lightness: 100%);
+      .button,
+      .button:visited,
+      .button:hover,
+      .button:active,
+      .button:focus {
+        background: change-color($black, $lightness: 100%);
+        border: 2px solid change-color($black, $lightness: 100%);
+        color: $dark-brown;
+        margin: 0 auto;
+        width: fit-content;
+        &:hover {
+          background: transparent;
+          color: change-color($black, $lightness: 100%);
+        }
+      }
+    }
+    .wifi-info {
+      background: change-color($black, $lightness: 100%);
+      color: $dark-brown;
+      p {
+        font-size: 1.15rem;
+      }
+      .wifi-password {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
 // About page styles
 .main-content.about {
   max-width: 800px;
@@ -116,5 +209,19 @@ main {
     @media all and (min-width: 620px) {
       font-size: 1.3rem;
     }
+  }
+}
+
+// 404 page styles
+.main-content.not-found {
+  h2 {
+    color: $dark-brown;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .button-group {
+    justify-content: center;
   }
 }
