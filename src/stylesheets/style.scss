@@ -86,6 +86,8 @@ hr {
 
 // Button styles
 .button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -118,6 +120,8 @@ hr {
   margin: 0 auto;
   padding-top: 14px;
   text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   a,
   a:visited,
@@ -125,7 +129,12 @@ hr {
   a:active,
   a:focus {
     color: $beige;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     &:hover {
       text-decoration: none;
