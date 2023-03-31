@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/coffee-shop-site-reactjs/issues"
   },
-  "homepage": "https://github.com/autumnchris/coffee-shop-site-reactjs#readme",
+  "homepage": "https://autumnchris-coffee-shop-reactjs.onrender.com",
   "dependencies": {
     "normalize.css": "^5.0.0",
     "react": "^18.2.0",

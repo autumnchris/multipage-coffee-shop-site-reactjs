@@ -18,6 +18,10 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 * [Dark Idea font](https://befonts.com/dark-idea-font.html)
 * [TA Typefire font](https://befonts.com/ta-typefire-font-family.html)
 
+# Demo
+
+View project demo at [https://autumnchris-coffee-shop-reactjs.onrender.com](https://autumnchris-coffee-shop-reactjs.onrender.com).
+
 ## Instructions
 
 After forking and cloning, navigate to the repository in your command line and install the NPM packages:
