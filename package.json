@@ -1,7 +1,7 @@
 {
   "name": "multipage-coffee-shop-site-reactjs",
   "version": "1.0.0",
-  "description": "A front-end multi-page web app of a mock coffee shop using front-end routing. Built with React.js.",
+  "description": "A front-end multipage web app of a mock coffee shop using front-end routing. Built with React.js.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/autumnchris/coffee-shop-site-reactjs.git"
+    "url": "git+https://github.com/autumnchris/multipage-coffee-shop-site-reactjs.git"
   },
   "author": "autumnchris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/autumnchris/coffee-shop-site-reactjs/issues"
+    "url": "https://github.com/autumnchris/multipage-coffee-shop-site-reactjs/issues"
   },
-  "homepage": "https://autumnchris-coffee-shop-reactjs.onrender.com",
+  "homepage": "https://autumnchris-multipage-coffee-shop-site.onrender.com",
   "dependencies": {
     "normalize.css": "^5.0.0",
     "react": "^18.2.0",
