@@ -139,13 +139,39 @@ hr {
     &:hover {
       text-decoration: none;
     }
-    .logo--coffee {
+    .logo--top {
       font-family: $logo-font--coffee;
       margin-bottom: -10px;
     }
-    .logo--grounds {
+    .logo--bottom {
       font-family: $logo-font--grounds;
-      text-transform: lowercase;
+    }
+  }
+}
+
+.social-media-links {
+  padding-bottom: 26px;
+  -webkit-box-ordinal-group: 0;
+  -ms-flex-order: -1;
+  order: -1;
+  @media all and (min-width: 620px) {
+    padding-bottom: 0;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  a,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus {
+    color: change-color($black, $lightness: 100%);
+    font-size: 1.5rem;
+    &:hover {
+      color: $beige;
+    }
+    &:not(:last-child) {
+      margin-right: 6px;
     }
   }
 }

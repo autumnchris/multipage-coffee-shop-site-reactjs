@@ -1,28 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ImageGallery from '../components/ImageGallery';
+import MenuList from '../components/MenuList';
+import HeroBanner from '../components/HeroBanner';
+import menuHeroBanner from '../assets/images/menu-hero-banner.jpg';
 
-const Home = () => {
+const Menu = () => {
   return (
-    <section className="main-content home">
-      <section className="content-container welcome">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Venenatis tellus in metus vulputate eu.</p>
+    <React.Fragment>
+      <HeroBanner heading="Menu" imageFile={menuHeroBanner} />
+      <section className="main-content menu">
+        <h3>Drinks</h3>
+        <p className="menu-info"><span className="bold">Milk Selections:</span> Oat... and only oat</p>
+        <p className="menu-info"><span className="bold">House Made Syrups:</span> Vanilla, Pumpkin Spice</p>
+        <p className="menu-info">✧: <span className="italics">house specialty</span></p>
+        <h4>Coffee</h4>
+        <MenuList type="Coffee" />
+        <h4>Espresso</h4>
+        <MenuList type="Espresso" />
+        <h4>Tea</h4>
+        <MenuList type="Tea" />
       </section>
-      <section className="content-container image-gallery">
-        <ImageGallery />
-      </section>
-      <section className="content-container info">
-        <div className="info-container menu-info">
-          <h2>Coffee, Espresso, Tea, and more...</h2>
-          <Link to="/menu" className="button">View Our Menu</Link>
-        </div>
-        <div className="info-container wifi-info">
-          <h2>Free Wifi available to all customers!</h2>
-          <p>Password is <span className="wifi-password">weheartcoffee</span></p>
-        </div>
-      </section>
-    </section>
+    </React.Fragment>
   );
 }
 
-export default Home;
+export default Menu;

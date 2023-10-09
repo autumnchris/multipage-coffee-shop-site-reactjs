@@ -5,8 +5,8 @@ const Logo = () => {
   return (
     <div className="logo">
       <Link to="/">
-        <span className="logo--coffee">Coffee</span>
-        <span className="logo--grounds">Grounds</span>
+        <span className="logo--top">Cafe by Tyler</span>
+        <span className="logo--bottom"></span>
       </Link>
     </div>
   );

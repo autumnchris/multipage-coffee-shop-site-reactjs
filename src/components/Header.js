@@ -7,12 +7,12 @@ const Header = () => {
     <header>
       <h1>
         <Logo />
+      <div className="social-media-links">
+        <a href="https://www.instagram.com/coffeeartbytyler" target="_blank" aria-label="Instagram" title="Instagram">
+          <span className="fab fa-instagram fa-fw"></span>
+        </a>
+      </div>
       </h1>
-      <nav>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/menu">Menu</NavLink>
-        <NavLink to="/visit">Visit</NavLink>
-      </nav>
     </header>
   );
 }
