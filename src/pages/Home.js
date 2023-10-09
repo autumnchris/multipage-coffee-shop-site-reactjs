@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuList from '../components/MenuList';
 import HeroBanner from '../components/HeroBanner';
-import menuHeroBanner from '../assets/images/menu-hero-banner.jpg';
+import menuHeroBanner from '../assets/images/menu-hero-banner.png';
 
 const Menu = () => {
   return (
