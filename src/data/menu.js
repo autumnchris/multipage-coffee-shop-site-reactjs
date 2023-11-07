@@ -64,6 +64,12 @@ const menu = [
     itemName: 'Various loose leaf tea',
     price: '8oz / 12oz',
     type: 'Tea'
+  },
+  {
+    id: 41,
+    itemName: 'Espresso Martini ✧',
+    price: 'vodka / tequila / mezcal / whiskey',
+    type: 'Boozy'
   }
 ];
 

@@ -10,7 +10,7 @@ const Menu = () => {
       <section className="main-content menu">
         <h3>Drinks</h3>
         <p className="menu-info"><span className="bold">Milk Selections:</span> Oat... and only oat</p>
-        <p className="menu-info"><span className="bold">House Made Syrups:</span> Vanilla, Pumpkin Spice</p>
+        <p className="menu-info"><span className="bold">House Made Syrups:</span> Vanilla, <s>Pumpkin Spice</s></p>
         <p className="menu-info">✧: <span className="italics">house specialty</span></p>
         <h4>Coffee</h4>
         <MenuList type="Coffee" />
@@ -18,6 +18,8 @@ const Menu = () => {
         <MenuList type="Espresso" />
         <h4>Tea</h4>
         <MenuList type="Tea" />
+        <h4>Boozy</h4>
+        <MenuList type="Boozy" />
       </section>
     </React.Fragment>
   );
