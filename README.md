@@ -18,7 +18,7 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 * [Dark Idea font](https://befonts.com/dark-idea-font.html)
 * [TA Typefire font](https://befonts.com/ta-typefire-font-family.html)
 
-# Demo
+## Demo
 
 View project demo at [https://autumnchris-multipage-coffee-shop-site.onrender.com](https://autumnchris-multipage-coffee-shop-site.onrender.com).
 
