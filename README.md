@@ -10,6 +10,9 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 * [React.js](https://reactjs.org)
 * [React Router](https://reactrouter.com)
 * [Sass](http://sass-lang.com)
+* JavaScript
+* CSS3
+* HTML5
 * [Webpack](https://webpack.js.org)
 * [Babel](https://babeljs.io)
 * [Normalize.css](https://necolas.github.io/normalize.css)
