@@ -13,6 +13,7 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 * JavaScript
 * CSS3
 * HTML5
+* [Node.js](https://nodejs.org/en)
 * [Webpack](https://webpack.js.org)
 * [Babel](https://babeljs.io)
 * [Normalize.css](https://necolas.github.io/normalize.css)
