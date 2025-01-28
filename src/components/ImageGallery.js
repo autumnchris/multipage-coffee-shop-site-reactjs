@@ -5,9 +5,7 @@ const ImageGallery = () => {
 
   return (
     <React.Fragment>{[...imageGallery].map(image => {
-      return <figure key={image.id}>
-        <img src={image.path} alt={image.alt} />
-      </figure>
+      return <img src={image.path} alt="" key={image.id} />
     })}</React.Fragment>
   );
 }
