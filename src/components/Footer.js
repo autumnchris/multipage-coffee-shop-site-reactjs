@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="contact-info">
             <p className="hours"><span className="icon far fa-clock fa-fw" aria-hidden="true"></span> Hours: DAILY 7AM - 8PM</p>
             <p className="address">
-              <span className="icon fas fa-map-marker-alt fa-fw" aria-label="Address:"></span> <address>555 Espresso Lane Mochaville FL 55555</address>
+              <span className="icon fas fa-map-marker-alt fa-fw" aria-hidden="true"></span> <address>555 Espresso Lane Mochaville FL 55555</address>
             </p>
-            <p className="phone"><span className="icon fas fa-phone-alt fa-fw" aria-label="Phone Number:"></span> <address>
+            <p className="phone"><span className="icon fas fa-phone-alt fa-fw" aria-hidden="true"></span> <address>
                 <a href="tel:5555555555">(555) 555-5555</a>
             </address></p>
           </div>
