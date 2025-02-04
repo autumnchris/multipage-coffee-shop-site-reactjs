@@ -23,7 +23,8 @@ main {
   h3 {
     border-bottom: 6px double $golden-brown;
     color: $dark-brown;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    font-weight: 600;
     letter-spacing: 3px;
     margin: 0 auto;
     padding: 0 15px;
@@ -33,16 +34,17 @@ main {
     width: -moz-fit-content;
     width: fit-content;
     @media all and (min-width: 620px) {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
     }
   }
   h4 {
     color: $dark-brown;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
     letter-spacing: 2px;
     margin: 0;
     @media all and (min-width: 620px) {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
   }
 }
@@ -124,7 +126,8 @@ main {
         }
       }
       h2 {
-        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 2px;
       }
     }
     .menu-info {
@@ -255,6 +258,7 @@ main {
   h2 {
     color: $dark-brown;
     font-size: 2.8rem;
+    font-weight: 600;
     line-height: 1.2;
     text-align: center;
     text-transform: uppercase;
