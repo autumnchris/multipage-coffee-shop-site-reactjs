@@ -16,23 +16,23 @@ const Footer = () => {
         </div>
         <div className="other">
           <div className="contact-info">
-            <p className="hours"><span className="icon far fa-clock fa-fw" aria-hidden="true"></span> Hours: DAILY 7AM - 8PM</p>
-            <p className="address">
-              <span className="icon fas fa-map-marker-alt fa-fw" aria-hidden="true"></span> <address>555 Espresso Lane Mochaville FL 55555</address>
-            </p>
-            <p className="phone"><span className="icon fas fa-phone-alt fa-fw" aria-hidden="true"></span> <address>
+            <div className="info hours"><span className="icon fa-regular fa-clock fa-fw" aria-hidden="true"></span> Hours: DAILY 7AM - 8PM</div>
+            <div className="info address">
+              <span className="icon fa-solid fa-location-dot fa-fw" aria-hidden="true"></span> <address>555 Espresso Lane Mochaville FL 55555</address>
+            </div>
+            <div className="info phone"><span className="icon fa-solid fa-phone fa-fw" aria-hidden="true"></span> <address>
                 <a href="tel:5555555555">(555) 555-5555</a>
-            </address></p>
+            </address></div>
           </div>
           <div className="social-media-links">
-            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" title="Facebook">
-              <span className="fab fa-facebook fa-fw"></span>
+            <a href="" target="_blank" aria-label="Our Facebook page" title="Facebook">
+              <span className="fa-brands fa-facebook fa-fw"></span>
             </a>
-            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" title="Instagram">
-              <span className="fab fa-instagram fa-fw"></span>
+            <a href="" target="_blank" aria-label="Our Instagram account" title="Instagram">
+              <span className="fa-brands fa-instagram fa-fw"></span>
             </a>
-            <a href="https://twitter.com" target="_blank" aria-label="Twitter" title="Twitter">
-              <span className="fab fa-twitter fa-fw"></span>
+            <a href="" target="_blank" aria-label="Our Bluesky account" title="Bluesky">
+              <span className="fa-brands fa-bluesky fa-fw"></span>
             </a>
           </div>
         </div>

@@ -8,6 +8,21 @@
   src: url(.././assets/fonts/ta-typefire.otf);
 }
 
+@font-face {
+  font-family: "Source Sans 3 Regular";
+  src: url(.././assets/fonts/SourceSans3-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Source Sans 3 SemiBold";
+  src: url(.././assets/fonts/SourceSans3-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Crimson Text SemiBold";
+  src: url(.././assets/fonts/CrimsonText-SemiBold.ttf);
+}
+
 @import "variables";
 
 // BASE PAGE STYLES
@@ -106,6 +121,7 @@ address {
   color: $beige;
   color: change-color($black, $lightness: 100%);
   cursor: pointer;
+  font-family: $main-font-bold;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 1px;

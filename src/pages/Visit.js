@@ -8,23 +8,23 @@ const Visit = () => {
       <HeroBanner heading="Visit Us" imageFile={visitHeroBanner} />
       <section className="main-content visit">
         <h3>Hours</h3>
-        <p>DAILY 7AM - 8PM</p>
+        <div className="info">DAILY 7AM - 8PM</div>
         <h3>Phone</h3>
-        <p>
+        <div className="info">
           <address>
             <a href="tel:5555555555">(555) 555-5555</a>
           </address>
-        </p>
+        </div>
         <h3>Email</h3>
-        <p>
+        <div className="info">
           <address>
             <a href="mailto:coffee.grounds@realemail.com">coffee.grounds@realemail.com</a>
           </address>
-        </p>
+        </div>
         <h3>Location</h3>
-        <p>
+        <div className="info">
           <address>555 Espresso Lane Mochaville FL 55555</address>
-        </p>
+        </div>
       </section>
     </React.Fragment>
   );

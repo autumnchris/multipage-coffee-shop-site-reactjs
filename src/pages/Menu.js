@@ -9,8 +9,8 @@ const Menu = () => {
       <HeroBanner heading="Our Menu" imageFile={menuHeroBanner} />
       <section className="main-content menu">
         <h3>Drinks</h3>
-        <p className="menu-info"><span className="bold">Milk Selections:</span> Low Fat, Skim, Half & Half, Almond, Oat</p>
-        <p className="menu-info"><span className="bold">House Made Syrups $0.50:</span> Mocha, White Mocha, Caramel, Vanilla, Cinnamon, Raspberry, Hazelnut, Lavender</p>
+        <p className="menu-info"><span className="sans-bold">Milk Selections:</span> Low Fat, Skim, Half & Half, Almond, Oat</p>
+        <p className="menu-info"><span className="sans-bold">House Made Syrups $0.50:</span> Mocha, White Mocha, Caramel, Vanilla, Cinnamon, Raspberry, Hazelnut, Lavender</p>
         <h4>Coffee</h4>
         <MenuList type="Coffee" />
         <p className="menu-info">Free refills available for any of our drip coffees and Nitro Cold Brew.</p>

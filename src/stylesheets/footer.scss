@@ -33,6 +33,7 @@ footer {
       a:active,
       a:focus {
         color: change-color($black, $lightness: 100%);
+        font-family: $main-font-bold;
         font-size: 0.85rem;
         font-weight: 600;
         letter-spacing: 3px;
@@ -67,7 +68,7 @@ footer {
         -ms-flex-pack: justify;
         justify-content: space-between;
       }
-      p {
+      .info {
         font-size: 0.9rem;
         margin: 6px 0;
       }

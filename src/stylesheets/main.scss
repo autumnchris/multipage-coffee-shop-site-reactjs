@@ -12,7 +12,8 @@ main {
       border-bottom: 2.5px solid $dark-brown;
       margin: 38px 12px;
     }
-    .bold {
+    .sans-bold {
+      font-family: $main-font-bold;
       font-weight: 600;
     }
   }
@@ -158,6 +159,7 @@ main {
         font-size: 1.15rem;
       }
       .wifi-password {
+        font-family: $main-font-bold;
         font-size: 1.25rem;
         font-weight: 600;
       }
@@ -225,6 +227,7 @@ main {
       padding: 6px 0;
     }
     .item-name {
+      font-family: $main-font-bold;
       font-size: 1.15rem;
       font-weight: 600;
 
@@ -243,9 +246,11 @@ main {
   h3:not(:first-child) {
     margin-top: 40px;
   }
-  p {
+  .info {
+    font-family: $main-font-bold;
     font-size: 1.1rem;
     font-weight: 600;
+    margin: 20px 0;
     text-align: center;
     @media all and (min-width: 620px) {
       font-size: 1.3rem;
