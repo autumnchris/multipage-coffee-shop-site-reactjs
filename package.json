@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/autumnchris/multipage-coffee-shop-site-reactjs/issues"
   },
-  "homepage": "https://autumnchris-multipage-coffee-shop-site.onrender.com",
+  "homepage": "https://autumnchris-coffee-shop-site-reactjs.onrender.com",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "normalize.css": "^5.0.0",

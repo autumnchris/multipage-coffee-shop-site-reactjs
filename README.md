@@ -24,7 +24,7 @@ Inspired by the [Restaurant Page assignment](https://www.theodinproject.com/less
 
 ## Demo
 
-View project demo at [https://autumnchris-multipage-coffee-shop-site.onrender.com](https://autumnchris-multipage-coffee-shop-site.onrender.com).
+View project demo at [https://autumnchris-coffee-shop-site-reactjs.onrender.com](https://autumnchris-coffee-shop-site-reactjs.onrender.com).
 
 ## Instructions
 
