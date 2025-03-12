@@ -9,9 +9,9 @@ const Footer = () => {
         <Logo />
         <div className="site-links">
           <nav className="links-container">
-            <Link to="about">About</Link>
-            <Link to="menu">Menu</Link>
-            <Link to="visit">Visit</Link>
+            <Link to="/about">About</Link>
+            <Link to="/menu">Menu</Link>
+            <Link to="/visit">Visit</Link>
           </nav>
         </div>
         <div className="other">
