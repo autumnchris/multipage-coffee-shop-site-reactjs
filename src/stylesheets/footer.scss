@@ -20,31 +20,33 @@ footer {
   .coffee-shop-footer {
     padding: 0 20px;
     .site-links {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
       padding: 14px 0 26px;
-      a,
-      a:visited,
-      a:hover,
-      a:active,
-      a:focus {
-        color: change-color($black, $lightness: 100%);
-        font-family: $main-font-bold;
-        font-size: 0.85rem;
-        font-weight: 600;
-        letter-spacing: 3px;
-        text-decoration: none;
-        text-transform: uppercase;
-        &:not(:last-child) {
-          margin-right: 10px;
-        }
-        &:hover {
-          color: $light-gray;
+      .links-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        a,
+        a:visited,
+        a:hover,
+        a:active,
+        a:focus {
+          color: change-color($black, $lightness: 100%);
+          font-family: $main-font-bold;
+          font-size: 0.85rem;
+          font-weight: 600;
+          letter-spacing: 3px;
           text-decoration: none;
+          text-transform: uppercase;
+          &:not(:last-child) {
+            margin-right: 10px;
+          }
+          &:hover {
+            color: $light-gray;
+            text-decoration: none;
+          }
         }
       }
     }
@@ -68,11 +70,23 @@ footer {
         -ms-flex-pack: justify;
         justify-content: space-between;
       }
-      .info {
-        font-size: 0.9rem;
-        margin: 6px 0;
+      .contact-info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        .info {
+          font-size: 0.9rem;
+          margin: 4px 0;
+        }
       }
       .social-media-links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         padding-bottom: 26px;
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
@@ -90,6 +104,7 @@ footer {
         a:focus {
           color: change-color($black, $lightness: 100%);
           font-size: 1.5rem;
+          text-decoration: none;
           &:hover {
             color: $beige;
           }

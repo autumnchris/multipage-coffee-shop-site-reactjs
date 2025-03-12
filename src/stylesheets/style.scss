@@ -160,10 +160,12 @@ address {
     .logo--coffee {
       font-family: $logo-font--coffee;
       margin-bottom: -10px;
+      pointer-events: none;
     }
     .logo--grounds {
       font-family: $logo-font--grounds;
       text-transform: lowercase;
+      pointer-events: none;
     }
   }
 }

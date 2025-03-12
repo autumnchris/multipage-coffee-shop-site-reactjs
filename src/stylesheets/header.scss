@@ -10,6 +10,12 @@ header {
   width: 100%;
   z-index: 1;
   nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 14px 0;
     a,
     a:visited,
